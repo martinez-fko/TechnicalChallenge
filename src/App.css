@@ -1,0 +1,151 @@
+:root {
+  --color-bg: #e469c9;
+  --color-bg-gray: rgb(230, 225, 225);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.App {
+  width: 375px;
+  margin: 0 auto 1rem;
+}
+
+.header {
+  background: var(--color-bg);
+  margin-top: 1rem;
+  padding: 2rem 1rem;
+}
+
+.header__title {
+  width: 100%;
+  height: 80px;
+  font-size: .5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__title img {
+  max-width: 50%;
+  object-fit: contain;
+}
+
+.header__content {
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  font-size: .9rem;
+}
+
+.header__content i {
+  font-size: 1.2rem;
+}
+
+.section{
+  background: rgb(230, 225, 225);
+  padding: 1rem;
+}
+
+.section__content {
+  display: flex;
+  gap: 1rem;
+}
+
+.section__content img {
+  width: 55px;
+  height: 55px;
+}
+
+.section__info{
+  padding: 1rem;
+  background: rgb(212, 211, 211);
+  border-radius: 7px;
+  font-size: .8rem;
+}
+
+.section__info input {
+  width: 100%;
+  height: 40px;
+  padding: .5rem;
+  margin: .5rem 0;
+  border: none;
+  outline: none;
+}
+
+.btn{
+  height: 30px;
+  color: #fff;
+  padding: .5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-top: 1rem;
+  background: rgb(231, 17, 17);
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+
+.output{
+  background: var(--color-bg);
+  padding: 1rem .5rem ;
+  font-size: .5rem;
+  width: calc(100% - 55px);
+  margin-left: auto;
+  margin-top: 1.2rem;
+  border-radius: 7px;
+}
+
+.section__start{
+  padding: 1rem;
+  background: rgb(212, 211, 211);
+  border-radius: 7px;
+  font-size: .8rem;
+  width: 272px;
+  margin-left: auto;
+}
+
+.btnStart{
+  width: 275px;
+  height: 30px;
+  color: #fff;
+  padding: .5rem;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 1rem;
+  background: rgb(231, 17, 17);
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.section{
+  background: var(--color-bg-gray);
+}
+
+.section .info{
+  background: var(--color-bg);
+  padding: 1rem;
+  font-size: .8rem;
+  line-height: 1.2rem;
+}
+
+.error{
+  font-size: .8rem;
+  font-weight: bold;
+  color: rgb(231, 17, 17);
+}
